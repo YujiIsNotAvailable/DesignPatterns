@@ -37,7 +37,7 @@ class Main
             $pattern = $module->search($stringPattern);
             if ($pattern) break;
         }
-        if (!$pattern) throw new DomainException("Padrão de projeto \"{$stringPattern}\" não encontrado.", 1);
+        if (!$pattern) throw new DomainException("Padrão de projeto {$stringPattern} não encontrado.", 1);
         $pattern->run();
     }
 }
