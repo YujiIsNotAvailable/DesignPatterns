@@ -4,9 +4,9 @@ namespace Yj\DesignPattern;
 
 class Functions
 {
-    static function print(string $string, int $sleep = 0): void
+    static function print(string $string, int $delay = 0): void
     {
         echo $string . PHP_EOL;
-        sleep($sleep);
+        sleep($delay);
     }
 }

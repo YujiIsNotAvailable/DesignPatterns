@@ -1,6 +1,6 @@
 <?php
 
-namespace Yj\DesignPattern\Structure\Adapter;
+namespace Yj\DesignPattern\Structural\Adapter;
 
 class Stock
 {
